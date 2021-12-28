@@ -1,6 +1,6 @@
 <template>
   <div class="calc">
-    <h2>"Калькулятор ДЗ1"</h2>
+    <h2>"Калькулятор"</h2>
     <button class="clear" @click="clear">Очистить</button>
     <input aria-label="op1" type="text" placeholder="Введите число" v-model.number="op1"/>
     <span>{{ operation }}</span>
